@@ -1,6 +1,6 @@
 export function createCharacterCard(character) {
-  console.log(character);
-  const card = document.createElement("li");
+  //console.log(character);
+  const card = document.createElement("card");
   card.innerHTML = `<li class="card">
     <div class="card__image-container">
       <img
